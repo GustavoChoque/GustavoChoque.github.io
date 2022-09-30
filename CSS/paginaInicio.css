@@ -1,0 +1,50 @@
+html {
+    background: rgb(146, 175, 201);
+  }
+
+#contenedor {
+    position: absolute;
+    width: 60%;
+    height: 600px;
+    left: 30%;
+
+}
+
+#foto {
+    
+    background-image: url("../resources/imagen/cara.jpg");
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 150px;
+    width: 150px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    
+}
+
+#descripcion {
+    
+    position: absolute;
+    
+    width: 400px;
+    top: 20%;
+    
+}
+#redes {
+    
+    position: absolute;
+    top: 50%;
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+
+}
+
