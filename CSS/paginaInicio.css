@@ -1,13 +1,24 @@
-html {
+/*body div{
     background: rgb(146, 175, 201);
-  }
+    background: rgb(2, 20, 37); 
+  }*/
+main{
+    
+    background: rgb(2, 20, 37);
+
+}
+section{
+    background: rgb(2, 16, 29); 
+    position: relative;
+    width: 70%;
+    margin: 0 auto; 
+}
 
 #contenedor {
-    position: absolute;
-    width: 60%;
-    height: 600px;
-    left: 30%;
-
+    position: relative;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto; 
 }
 
 #foto {
@@ -23,28 +34,67 @@ html {
     background-size: 100% auto;
     position: absolute;
     top: 20%;
-    left: 50%;
-    
+    right: 30%;  
 }
 
 #descripcion {
     
     position: absolute;
-    
-    width: 400px;
-    top: 20%;
-    
+    margin: 0 auto;
+    width: 50%;
+    height: -500%;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: azure; 
 }
+
 #redes {
     
     position: absolute;
-    top: 50%;
+    top: 80%;
+    left: 0;
+    right: 0;
+    width: 20%;
+    margin: 0 auto;
     
 }
+.tituloSeccion{
+    padding-left: 10%;
+    color: rgb(77, 74, 74); 
 
+}
+.tituloArticulo{
+    color: rgb(212, 17, 17); 
+
+}
+.detalleArticulo{
+    color: azure; 
+    width: 50%;
+    left: 0;
+    right: 0;
+}
+.nivel{
+    color: azure; 
+}
+article{
+    padding-left: 15%;
+    padding-bottom: 2%;
+}
+
+nav{
+
+padding-left: 30%;
+padding-right: 30%;
+padding-bottom: 5%;
+
+
+
+}
 footer{
-    position: absolute;
-    bottom: 0;
-
+    position: relative;
+    top: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
